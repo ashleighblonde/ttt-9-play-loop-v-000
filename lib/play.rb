@@ -37,11 +37,9 @@ end
 
 # define your play method below
 def play(board)
-  turn  = 0
-   board.each do |spaces|
-      if spaces == "X" || spaces == "O"
-         turn += 1
-      end
+   counter = 0
+   until counter == 9
+     turn(board)
+     counter += 1
    end
-   turn
 end
