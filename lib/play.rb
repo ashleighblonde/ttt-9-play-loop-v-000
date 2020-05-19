@@ -36,7 +36,7 @@ def turn(board)
 end
 
 # define your play method below
-def turn_count(board)
+def turn(board)
    counter = 0
    board.each do |spaces|
       if spaces == "X" || spaces == "O"
