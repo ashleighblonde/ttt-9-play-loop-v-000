@@ -44,6 +44,7 @@ def play(board)
       break
       puts "game over"
   end
+end
 
 
 end
